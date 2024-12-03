@@ -15,11 +15,11 @@ def countdown_bottles(num_bottles):
 
     if num_bottles == 1:
         print("1 bottle of beer on the wall, 1 bottle of beer.")
-        print("Take it down, pass it around, no more bottles of beer on the wall.")
+        print("Take it down, pass it around, 0 bottles of beer on the wall.")
         print("Go to the store and buy some more, 99 bottles of beer on the wall!\n")
 
     if num_bottles == 0:
-        print("No more bottles of beer on the wall, no more bottles of beer.")
+        print("0 bottles of beer on the wall, 0 bottles of beer.")
         print("Go to the store and buy some more, 99 bottles of beer on the wall!\n")
 
 def main():
